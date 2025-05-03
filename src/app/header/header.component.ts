@@ -7,6 +7,10 @@ import * as $ from 'jquery';
 })
 export class HeaderComponent implements OnInit {
 
+
+
+  isNavbarCollapsed: boolean = true;
+  
   constructor() { }
 
   ngOnInit(): void {
